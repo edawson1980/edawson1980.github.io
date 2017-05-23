@@ -46,7 +46,10 @@ a:hover {
   border: 4px solid white;
   border-radius: 5px;
 
+}
 
+.profile {
+  height: 275px;
 }
 
 .screenshot {
@@ -79,7 +82,7 @@ main {
 
 .wrapper {
   background-color: #C2D7E6;
-  margin-top: 65px;
+  margin: 45px 20px;
   border: 6px solid #E1DCBD;
 }
 
