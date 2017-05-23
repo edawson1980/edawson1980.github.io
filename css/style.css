@@ -18,15 +18,24 @@ ul {
 li {
   /*flex-basis: auto;*/
 }
+
+a{
+  text-decoration: none;
+  color: black;
+  text-shadow:2px 2px 5px black;
+}
+
+
+
 a:link {
   text-decoration: none;
-  color: #B6434F;
+  color: black;
   font-family: 'Space Mono', monospace;
   text-transform: lowercase;
 }
 
 a:visited {
-  text-decoration:line-through;
+  text-decoration:none;
 }
 a:hover {
   color: gray;
@@ -53,7 +62,6 @@ a:hover {
 }
 
 .projects {
-
 
 }
 
