@@ -50,6 +50,7 @@ a:hover {
 
 .profile {
   height: 275px;
+  margin-bottom: -5px;
 }
 
 .screenshot {
