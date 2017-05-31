@@ -1,7 +1,10 @@
 body {
   font-family:'Space Mono', monospace;
-  background-color: #5584A7;
+  background-color: #e8efff;
 }
+/*header {
+  position: fixed;
+}*/
 
 h1 {
   text-shadow:2px 2px 5px black;
@@ -56,10 +59,11 @@ a:hover {
 .screenshot {
   margin-bottom: 15px;
   margin-left: 5%;
-  width: 300px;
-  height: 200px;
+  width: 700px;
+  height: 400px;
   box-shadow: 5px 5px 5px #888888;
   border: 1.5px solid #0F0F0F;
+  align-items: center;
 }
 
 .screenshot:active {
@@ -83,9 +87,9 @@ main {
 
 
 .wrapper {
-  background-color: #C2D7E6;
+  background-color: #adb3bf;
   margin: 45px 20px;
-  border: 6px solid #E1DCBD;
+  border: 6px solid #3a3c40;
 }
 
 footer {
