@@ -22,6 +22,8 @@
       </nav>
     </header>
 
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
     <main>
 
     <div class="intro">
@@ -29,6 +31,11 @@
       <p>Tinkerer.</p>
       <p>Explorer.</p>
       <p>Sandwich enthusiast.</p>
+    </div>
+
+    <div class="first_transition">
+      <p></p>
+
     </div>
 
     <div id="page1">
@@ -90,6 +97,24 @@
     </footer>
   </div>
 
+  <script>
+  // When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0; // For Chrome, Safari and Opera
+    document.documentElement.scrollTop = 0; // For IE and Firefox
+}
+  </script>
 
   </body>
 </html>
