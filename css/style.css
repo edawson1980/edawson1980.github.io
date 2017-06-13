@@ -1,6 +1,9 @@
 body {
   font-family:'Space Mono', monospace;
-  background-color: #e8efff;
+  /*background-color: #e8efff;*/
+  /*background-image: '../assets/photos/typewriter_rustic copy.jpg';*/
+  background: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/4U560BJ470.jpg");
+
 }
 /*header {
   position: fixed;
@@ -22,6 +25,15 @@ li {
   /*flex-basis: auto;*/
 }
 
+.info {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.info p {
+  /*background-color: green;*/
+}
+
 a{
   text-decoration: none;
   color: black;
@@ -34,7 +46,7 @@ a:link {
   text-decoration: none;
   color: black;
   font-family: 'Space Mono', monospace;
-  text-transform: lowercase;
+  /*text-transform: lowercase;*/
 }
 
 a:visited {
@@ -44,8 +56,15 @@ a:hover {
   color: gray;
 }
 
+/*#page3 {
+  display: flex;
+}*/
 
 .myphoto {
+  display: inline-block;
+  float: right;
+  /*clear: left;*/
+  margin-right: 30px;
   border: 4px solid white;
   border-radius: 5px;
 
@@ -74,19 +93,27 @@ a:hover {
 
 }
 
+.intro {
+  text-align: center;
+  /*background: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/4U560BJ470.jpg");*/
+}
+
+
 .description {
   margin-left: 5%;
 
 }
 
 main {
-  display: flex;
-  justify-content: space-around;
+  /*display: flex;
+  justify-content: space-around;*/
 
 }
 
 
 .wrapper {
+  /*background: "../assets/photos/typewriter_rustic_copy.jpg";*/
+  /*background: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/4U560BJ470.jpg");*/
   background-color: #adb3bf;
   margin: 45px 20px;
   border: 6px solid #3a3c40;
@@ -100,10 +127,10 @@ footer {
 
 
 
-p {
+/*p {
   display: flex;
   flex-direction: column-reverse;
-}
+}*/
 
 footer a{
   margin: auto 20px;
