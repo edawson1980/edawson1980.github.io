@@ -27,6 +27,7 @@ header {
   text-shadow: none;
   text-align: right;
   margin-right: 7%;
+
 }
 
 .second_transition {
@@ -159,6 +160,7 @@ a:hover {
   text-align: center;
   /*font-size: 18px;*/
   font-weight: bold;
+  padding-top: 20px;
 }
 
 
@@ -214,6 +216,7 @@ footer a{
     padding: 15px; /* Some padding */
     border-radius: 10px; /* Rounded corners */
     font-family:'Space Mono', monospace;
+    font-size: 12px;
 
 }
 
