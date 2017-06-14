@@ -20,6 +20,23 @@ header {
 
 }
 
+.second_transition {
+  background: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/F8WTEN2NJ4.jpg");
+  height: 300px;
+  background-position: right;
+  background-size: cover;
+}
+
+
+.third_transition {
+  background: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/L6966LD98C.jpg");
+  height: 300px;
+  background-position: right;
+  background-size: cover;
+  margin-bottom: 35px;
+
+}
+
 
 h1 {
   text-shadow:2px 2px 5px white;
@@ -58,6 +75,7 @@ a:link {
   text-decoration: none;
   color: black;
   font-family: 'Space Mono', monospace;
+  font-weight: bold;
   /*text-transform: lowercase;*/
 }
 
@@ -76,10 +94,14 @@ a:hover {
   display: inline-block;
   float: right;
   /*clear: left;*/
-  margin-right: 30px;
+  margin-right: 40px;
   border: 4px solid #3a3c40;
   border-radius: 5px;
 
+}
+
+.about {
+  text-align: center;
 }
 
 .profile {
@@ -108,7 +130,8 @@ a:hover {
 
 .intro {
   text-align: center;
-  /*background: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/4U560BJ470.jpg");*/
+  /*font-size: 18px;*/
+  font-weight: bold;
 }
 
 
@@ -135,7 +158,8 @@ main {
 footer {
   display: flex;
   justify-content: center;
-  margin-top: 35px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 
