@@ -16,9 +16,17 @@ header {
   margin-top: -20px;
 }
 
+blockquote {
+  font-style: italic;
+  font-size: 17px;
+  background-color: rgba(133,165,164,0.5);
+  padding: 10px;
+  border: 2px solid rgba(71,25,8,0.5);
+}
+
 .first_transition {
   background: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/4U560BJ470.jpg");
-  height: 400px;
+  height: 380px;
   background-position: right;
   background-size: cover;
 
@@ -41,6 +49,7 @@ header {
   height: 300px;
   background-position: right;
   background-size: cover;
+  /*margin-top: 300px;*/
 }
 
 .second_transition h1 {
@@ -80,6 +89,25 @@ header {
 h1 {
   text-shadow:2px 2px 5px white;
   margin-left: 5%;
+}
+
+.columnOne {
+  float: left;
+  width: 300px;
+  margin-left: 200px;
+  text-align: center;
+}
+
+
+.columnTwo {
+  float: right;
+  width: 300px;
+  margin-right: 200px;
+}
+
+.list {
+  display: block;
+  text-align: justify;
 }
 
 ul {
@@ -228,10 +256,10 @@ footer a{
     z-index: 99; /* Make sure it does not overlap */
     border: 2px solid #3a3c40; /* Remove borders */
     outline: none; /* Remove outline */
-    background-color: #421010; /* Set a background color */
+    background-color: rgba(66,16,16,0.6); /* Set a background color */
     color: white; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 5px; /* Some padding */
+    padding: 2px; /* Some padding */
     border-radius: 10px; /* Rounded corners */
     font-family:'Space Mono', monospace;
     font-size: 20px;
